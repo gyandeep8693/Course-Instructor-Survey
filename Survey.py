@@ -19,9 +19,9 @@ app.config.update(
     MAIL_PORT = 587,
     MAIL_USE_TLS = True,
     MAIL_USE_SSL = False,
-    MAIL_USERNAME ='surveydonkey.donotreply@gmail.com',
+    MAIL_USERNAME ='CIS.donotreply@gmail.com',
     MAIL_PASSWORD ='surveys123',
-    DEFAULT_MAIL_SENDER = 'surveydonkey.donotreply@gmail.com'
+    DEFAULT_MAIL_SENDER = 'CIS.donotreply@gmail.com'
     )
 mail = Mail(app)
 
